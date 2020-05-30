@@ -260,6 +260,14 @@ export default () => {
       }))
     ],
 
+    buildModules: [
+      '@nuxtjs/google-analytics'
+    ],
+
+    googleAnalytics: {
+      id: 'UA-20475086-1'
+    },
+
     generate: {
       fallback: true,
       routes: routes,
